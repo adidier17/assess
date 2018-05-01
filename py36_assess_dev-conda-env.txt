@@ -1,0 +1,27 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+@EXPLICIT
+https://repo.anaconda.com/pkgs/main/osx-64/ca-certificates-2018.03.07-0.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/libcxxabi-4.0.1-hebd6815_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/tk-8.6.7-h35a86e2_3.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/xz-5.2.3-h0278029_2.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/zlib-1.2.11-hf3cbc9b_2.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/libcxx-4.0.1-h579ed51_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/openssl-1.0.2o-h26aff7b_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/libffi-3.2.1-h475c297_4.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/ncurses-6.0-hd04f020_2.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/libedit-3.1-hb4e282d_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/readline-7.0-hc1231fa_4.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/sqlite-3.22.0-h3efe00b_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/python-3.6.5-hc167b69_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/certifi-2018.1.18-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/click-6.7-py36hec950be_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/itsdangerous-0.24-py36h49fbb8d_1.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/markupsafe-1.0-py36h3a1e703_1.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/werkzeug-0.14.1-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/setuptools-39.0.1-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/jinja2-2.10-py36hd36f9c5_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/wheel-0.31.0-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/flask-0.12.2-py36h5658096_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/osx-64/pip-9.0.3-py36_0.tar.bz2

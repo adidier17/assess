@@ -1,0 +1,9 @@
+{# _templates/frontend/index.html_ #}
+
+{% set page_title = 'Frontend' %}
+
+{% extends 'base.html' %}
+{% block body %}
+	{{ super() }}
+	<h2>This heading is defined in the child.</h2>
+{% endblock %}
