@@ -1,8 +1,7 @@
 import os 
 
 def predict(parsed):
-    """
-    """
+    """Driver for predict"""
 
     text_extracted = "Text Extracted"
     dir_path = os.path.dirname(os.path.realpath(__file__))

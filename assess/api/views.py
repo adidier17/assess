@@ -27,8 +27,6 @@ def predict():
         if f:
             parsed = tika_wrapper.parse_from_buffer(f.read())
 
-    print(parsed)
-
     result = predict_standards.predict(parsed)
 
     return json.dumps(result)
