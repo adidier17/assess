@@ -33,7 +33,7 @@ def configure_app(app, test_config=None):
 
     if test_config is None:
         # Load the configuration from the instance folder
-        app.config.from_pyfile('config.py')
+        app.config.from_pyfile('config.py', silent=True)
     else:
         # Load the test config if passed in
         app.config.update(test_config)
