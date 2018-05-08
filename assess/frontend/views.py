@@ -8,4 +8,4 @@ def index():
     Returns the main page of the frontend.
     """
 
-    return render_template('frontend/index.new.html')
+    return render_template('frontend/index.html')

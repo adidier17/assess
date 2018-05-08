@@ -1,15 +1,6 @@
-import pytest
+from assess import assess
 
-from flask import json
-
-def test_index(client):
-    response = client.get('/')
-    assert response.status_code == 200
-
-
-def test_predict(client):
-    response = client.get('/predict/')
-    d = json.loads(response.data)
-    assert "predictions" in d
-    assert "text_extracted" in d
-    assert "references" in d
+def test_create_app():
+    """Test create_app without passing test config."""
+    assert not assess.create_app().testing
+    assert assess.create_app({'TESTING': True}).testing

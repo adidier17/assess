@@ -1,6 +1,6 @@
 import os 
 
-def predict():
+def predict(parsed):
     """
     """
 

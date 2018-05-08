@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 
 from .frontend import frontend
 from .api import api
@@ -18,6 +18,7 @@ def create_app(test_config=None):
     configure_app(app, test_config)
     configure_blueprints(app)
     configure_logging(app)
+    configure_error_handlers(app)
 
     return app
 
@@ -72,7 +73,8 @@ def configure_logging(app):
     app.logger.addHandler(info_file_handler)
 
 
-# HTTP error handling
-#@app.errorhandler(404)
-#def not_found(error):
-#    return render_template('404.html'), 404
+def configure_error_handlers(app):
+
+    @app.errorhandler(404)
+    def not_found(error):
+        return render_template('404.html'), 404

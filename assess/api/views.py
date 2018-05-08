@@ -25,8 +25,10 @@ def predict():
         if f.filename == '':
             return 'no selected file!' #TODO
         if f:
-            parsed = tika_wrapper.parse_from_buffer(f.read()) 
+            parsed = tika_wrapper.parse_from_buffer(f.read())
 
-    result = predict_standards.predict()
+    print(parsed)
+
+    result = predict_standards.predict(parsed)
 
     return json.dumps(result)
